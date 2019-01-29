@@ -3,6 +3,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center; 
+   flex-direction: column;
 }
 .terminal-window {
     text-align: left;
@@ -79,3 +80,24 @@ body{
 .terminal-data { display: none; }
 .terminal-window .gray { color: gray; }
 .terminal-window .green { color: green;}
+
+.list-btn{
+    margin-top: 10px;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    display: inline-block;
+    background-color: #30353A;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    margin: 3px;
+}
+.btn:hover{
+    background-color: rgb(82, 83, 85);
+}
