@@ -4,6 +4,7 @@ body{
    justify-content: center;
    align-items: center; 
    flex-direction: column;
+   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
 }
 .terminal-window {
     text-align: left;
@@ -78,8 +79,9 @@ body{
 
 
 .terminal-data { display: none; }
-.terminal-window .gray { color: gray; }
-.terminal-window .green { color: green;}
+.gray { color: gray; }
+.green { color: green;}
+.black { color: #30353A; }
 
 .list-btn{
     margin-top: 10px;

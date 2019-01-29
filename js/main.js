@@ -1,6 +1,6 @@
 
 var typedInicial = new Typed('.prompt', {
-    strings: ['npm install apresentação^1000<br> `<span class="gray">installing components...</span><br>` ^1000\n `<span class="gray">Fetching from source...</span><br>` ^1000\n `Olá meu nome é Gabriel Rabelo Camargos,<br>Sou Desenvolvedor Web!`'],
+    strings: ['npm install apresentação^1000<br> `<span class="gray">installing components...</span><br>` ^1000\n `<span class="gray">Fetching from source...</span><br>` ^1000\n `Olá meu nome é Gabriel Rabelo Camargos,<br>tenho 18 anos,<br>Sou Desenvolvedor Web!<br><br><br><br><br><br><br><br><br><br><br><br><span class="gray">Saiba mais clicando nos links abaixo.</span>`'],
     typeSpeed: 50,
     backSpeed: false,
     //fadeOut: true,
@@ -37,4 +37,5 @@ $('#contato').click(function(){
         strings: ['cd contato^1000<br> `contato>` ^1000 `ls<br>` `&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Telefone => </span>(37) 99863-7969 <br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">E-mail => </span>rabelogabriel72@gmail.com<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">GitHub => </span>http://github.com/omitogabriel<br>`']
     });
     $('typed-cursor').empty();
+    $('#footer').append('<h4><span class="black">Obrigado pela visita!</span></h4>');
 });
