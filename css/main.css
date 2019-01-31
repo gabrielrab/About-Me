@@ -113,6 +113,6 @@ body{
     }
     .terminal-window{
         width: 95vw;
-        //height: auto;
+        height: auto;
     }
 }
