@@ -103,3 +103,16 @@ body{
 .btn:hover{
     background-color: rgb(82, 83, 85);
 }
+
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .list-btn{
+        flex-direction: column;
+    }
+    .btn{
+        display: block;
+    }
+    .terminal-window{
+        width: 95vw;
+        //height: auto;
+    }
+}

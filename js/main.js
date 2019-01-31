@@ -37,5 +37,4 @@ $('#contato').click(function(){
         strings: ['cd contato^1000<br> `contato>` ^1000 `ls<br>` `&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Telefone => </span>(37) 99863-7969 <br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">E-mail => </span>rabelogabriel72@gmail.com<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">GitHub => </span>http://github.com/omitogabriel<br>`']
     });
     $('typed-cursor').empty();
-    $('#footer').append('<h4><span class="black">Obrigado pela visita!</span></h4>');
 });
