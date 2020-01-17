@@ -29,7 +29,7 @@ $("#experiencia").click(function() {
   $(".terminal").append('$&nbsp;<span class="prompt"></span>');
   var typedExp = new Typed(".prompt", {
     strings: [
-      'cd experiencia^1000<br> `experiencia>` ^1000 `ls<br>` `&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Carmograf(2015-2017) => </span>Designer Gráfico e Arte Finalista <br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Sistema BUSQUEI(2017-Atualmente) => </span>Desenvolvedor/Proprietário<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Encontro de Professores - Cefet Divinópolis(2018) => </span>Desenvolvedor Back-End<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Sistema SIGEV(2018) => </span>Desenvolvedor<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Freelancer (2018-Atualmente) => </span>Desenvolvedor Full-Stack<br>&nbsp;&nbsp;`'
+      'cd experiencia^1000<br> `experiencia>` ^1000 `ls<br>` `&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Carmograf(2015-2017) => </span>Designer Gráfico e Arte Finalista <br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Sistema BUSQUEI(2017-Atualmente) => </span>Desenvolvedor/Proprietário<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Encontro de Professores - Cefet Divinópolis(2018) => </span>Desenvolvedor Back-End<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Sistema SIGEV(2018) => </span>Desenvolvedor<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Freelancer (2018) => </span>Desenvolvedor Full-Stack<br>&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Freelancer (2019-Atualmente) => </span>Desenvolvedor Full-Stack na CodeBy<br>`'
     ]
   });
   $("typed-cursor").empty();
